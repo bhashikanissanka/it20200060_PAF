@@ -85,10 +85,10 @@ $(document).on("click", ".btnUpdate", function(event)
 {
 		//$("#hidUserSave").val($(this).data("Userid"));
 		$("#hidUserSave").val($(this).closest("tr").find('#hidUserUpdate').val());
-		$("#Username").val($(this).closest("tr").find('td:eq(0)').text());
-		$("#Email").val($(this).closest("tr").find('td:eq(1)').text());
-		$("#Phoneno").val($(this).closest("tr").find('td:eq(2)').text());
-		$("#Nic").val($(this).closest("tr").find('td:eq(3)').text());
+		$("#Username").val($(this).closest("tr").find('td:eq(1)').text());
+		$("#Email").val($(this).closest("tr").find('td:eq(2)').text());
+		$("#Phoneno").val($(this).closest("tr").find('td:eq(3)').text());
+		$("#Nic").val($(this).closest("tr").find('td:eq(4)').text());
 		
 });
 
