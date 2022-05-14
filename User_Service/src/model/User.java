@@ -90,7 +90,7 @@ public class User {
 				output += "<td><input name='btnUpdate' type='button' value='Update' "
 						+ "class='btnUpdate btn btn-secondary' data-Userid='" + Userid + "'></td>"
 						+ "<td><input name='btnRemove' type='button' value='Remove' "
-						+ "class='btnRemove btn btn-danger' data-Userid='" + Userid + "'></td></tr>";
+						+ "class='btnRemove btn btn-danger' data-userID='" + Userid + "'></td></tr>";
 			}
 			con.close();
 

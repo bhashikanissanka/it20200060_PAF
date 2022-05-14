@@ -102,7 +102,7 @@ $(document).on("click", ".btnRemove", function(event)
  		{
 			 url : "UserAPI",
 			 type : "DELETE",
-			 data : "Userid=" + $(this).data("Userid"),
+			 data : "userID=" + $(this).data("Userid"),
 			 dataType : "text",
 			 complete : function(response, status)
 			 {
